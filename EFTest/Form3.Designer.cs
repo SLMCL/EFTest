@@ -1,7 +1,7 @@
 ﻿
 namespace EFTest
 {
-    partial class Form2
+    partial class Form3
     {
         /// <summary>
         /// Required designer variable.
@@ -32,54 +32,43 @@ namespace EFTest
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.listBox3 = new System.Windows.Forms.ListBox();
-            this.listBox4 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(50, 49);
+            this.listBox1.Location = new System.Drawing.Point(35, 25);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(194, 316);
+            this.listBox1.Size = new System.Drawing.Size(120, 342);
             this.listBox1.TabIndex = 0;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(299, 49);
+            this.listBox2.Location = new System.Drawing.Point(192, 25);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(194, 316);
+            this.listBox2.Size = new System.Drawing.Size(120, 342);
             this.listBox2.TabIndex = 1;
             // 
             // listBox3
             // 
             this.listBox3.FormattingEnabled = true;
-            this.listBox3.Location = new System.Drawing.Point(529, 49);
+            this.listBox3.Location = new System.Drawing.Point(364, 25);
             this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(194, 316);
+            this.listBox3.Size = new System.Drawing.Size(120, 342);
             this.listBox3.TabIndex = 2;
             // 
-            // listBox4
-            // 
-            this.listBox4.FormattingEnabled = true;
-            this.listBox4.Location = new System.Drawing.Point(758, 49);
-            this.listBox4.Name = "listBox4";
-            this.listBox4.Size = new System.Drawing.Size(194, 316);
-            this.listBox4.TabIndex = 3;
-            // 
-            // Form2
+            // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1130, 450);
-            this.Controls.Add(this.listBox4);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.listBox3);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.listBox1);
-            this.Name = "Form2";
-            this.Text = "Form2";
-            this.Load += new System.EventHandler(this.Form2_Load);
+            this.Name = "Form3";
+            this.Text = "Form3";
             this.ResumeLayout(false);
 
         }
@@ -89,6 +78,5 @@ namespace EFTest
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.ListBox listBox3;
-        private System.Windows.Forms.ListBox listBox4;
     }
 }
